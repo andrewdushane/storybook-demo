@@ -4,10 +4,12 @@
   "private": false,
   "dependencies": {
     "@storybook/addon-knobs": "^3.2.0",
+    "@storybook/addon-storyshots": "^3.2.3",
     "@storybook/react": "^3.2.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^15.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

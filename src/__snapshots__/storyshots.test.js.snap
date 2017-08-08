@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Boxes Eight red boxes 1`] = `
+<section
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+</section>
+`;
+
+exports[`Storyshots Boxes Four grey boxes 1`] = `
+<section
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+  <article
+    className="box"
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "boxSizing": "border-box",
+        "height": 100,
+        "margin": "2.5%",
+        "width": "20%",
+      }
+    }
+  />
+</section>
+`;
