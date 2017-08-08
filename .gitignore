@@ -9,6 +9,9 @@
 # production
 /build
 
+# storybook
+/storyBook
+
 # misc
 .DS_Store
 .env.local
