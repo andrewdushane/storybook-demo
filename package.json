@@ -5,6 +5,7 @@
   "dependencies": {
     "@storybook/addon-info": "^3.2.0",
     "@storybook/addon-knobs": "^3.2.0",
+    "@storybook/addon-notes": "^3.2.0",
     "@storybook/addon-storyshots": "^3.2.3",
     "@storybook/react": "^3.2.3",
     "react": "^15.6.1",

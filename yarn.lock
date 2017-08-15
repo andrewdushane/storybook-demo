@@ -48,6 +48,16 @@
   dependencies:
     "@storybook/addons" "^3.2.0"
 
+"@storybook/addon-notes@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-notes/-/addon-notes-3.2.0.tgz#e7b6720e260fab11c75a3799ee5d68d1b3496f2c"
+  dependencies:
+    "@storybook/addons" "^3.2.0"
+    babel-runtime "^6.23.0"
+    util-deprecate "^1.0.2"
+  optionalDependencies:
+    "@types/react" "^15.0.24"
+
 "@storybook/addon-storyshots@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-3.2.3.tgz#75e24ba5b4428f3619a37c0d4280d682a642b6a7"
@@ -165,6 +175,10 @@
 "@types/react@>=15":
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.1.tgz#c84c984bfa2c01e585d51e376df0ec7e13fadede"
+
+"@types/react@^15.0.24":
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.1.tgz#497f7228762da4432e335957cb34fe9b40f150ae"
 
 abab@^1.0.3:
   version "1.0.3"
