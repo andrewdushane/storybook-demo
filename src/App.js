@@ -3,10 +3,9 @@ import Boxes from './components/Boxes';
 
 const App = () => (
   <Boxes
-    quantity={4}
+    quantity={8}
+    maxPerRow={4}
     color="grey"
-    orientation="horizontal"
-    wrap
     height={100}
   />
 );
