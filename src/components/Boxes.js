@@ -1,30 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const getBoxesStyle = (orientation, wrap) => ({
+const padding = '1%';
+
+const boxesStyle = {
   display: 'flex',
-  flexDirection: orientation === 'vertical' ? 'column' : 'row',
-  flexWrap: wrap ? 'wrap' : 'nowrap',
-});
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+  paddingLeft: padding,
+  paddingRight: padding,
+  paddingBottom: padding,
+  paddingTop: padding,
+};
 
-const getBoxStyle = (color, height) => ({
+const getBoxStyle = ({ maxPerRow, color, height }) => ({
   boxSizing: 'border-box',
-  margin: '2.5%',
-  width: '20%',
+  marginBottom: '1%',
   backgroundColor: color,
+  width: `${98 / maxPerRow}%`,
   height,
 });
 
-const Boxes = ({
-  quantity,
-  color,
-  orientation,
-  wrap,
-  height,
-}) => (
-  <section style={getBoxesStyle(orientation, wrap)}>
+const Boxes = ({ quantity, ...rest }) => (
+  <section style={boxesStyle}>
     {[...Array(quantity)].map((_, i) => (
-      <article className="box" style={getBoxStyle(color, height)} key={i} />
+      <article className="box" style={getBoxStyle(rest)} key={i} />
     ))}
   </section>
 );
@@ -32,8 +33,7 @@ const Boxes = ({
 Boxes.propTypes = {
   quantity: PropTypes.number.isRequired,
   color: PropTypes.string.isRequired,
-  orientation: PropTypes.string,
-  wrap: PropTypes.bool,
+  maxPerRow: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
 }
 
